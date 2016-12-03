@@ -1,5 +1,14 @@
 angular.module('MyApp.Controllers')
-  .controller('MeowController', ['MeowService' , '$scope', '$state', 
+  .controller('MeowController', ['MeowService', '$scope', '$state', 
     function (MeowService, $scope, $state) {
-    $scope.txt = 'meow'
+    	var param = {
+    		firstName: 'guau',
+	        lastName: 'guau'
+    	}
+    	$scope.guau = MeowService.get( 0);
+
+    	$scope.m=function(){
+    		MeowService.add(param);
+    		console.log('meow')
+    	}
 }]);

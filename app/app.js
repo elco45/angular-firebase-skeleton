@@ -8,7 +8,7 @@ var config = {
 firebase.initializeApp(config);
 
 var app = angular.module('MyApp', ['firebase','ui.router','ngStorage','MyApp.Services', 'MyApp.Controllers']);
-
+  
 angular.module('MyApp.Controllers', []);
 angular.module('MyApp.Services', []);
 
