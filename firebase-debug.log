@@ -68,3 +68,17 @@
 [info] Public Directory: app
 [info] 
 [info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\elco45\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.2.0
+[debug] Platform:     win32
+[debug] Node Version: v6.3.1
+[debug] Time:         Sat Dec 03 2016 16:03:26 GMT-0600 (Central America Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\elco45\Desktop\huaweiFleetManager
+[info] Public Directory: app
+[info] 
+[info] Server listening at: http://localhost:5000

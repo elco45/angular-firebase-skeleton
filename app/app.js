@@ -1,9 +1,8 @@
 var config = {
-    apiKey: "AIzaSyACeyiZGokIXDhh5ilDQMBK8mG53EjyFxs",
-    authDomain: "huaweifleetmanager.firebaseapp.com",
-    databaseURL: "https://huaweifleetmanager.firebaseio.com",
-    storageBucket: "huaweifleetmanager.appspot.com",
-    messagingSenderId: "997504850718"
+    apiKey: '<your-api-key>',
+    authDomain: '<your-auth-domain>',
+    databaseURL: '<your-database-url>',
+    storageBucket: '<your-storage-bucket>'
 };
 firebase.initializeApp(config);
 
@@ -13,16 +12,14 @@ angular.module('MyApp.Controllers', []);
 angular.module('MyApp.Services', []);
 
 app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-	$urlRouterProvider.otherwise('login');
+	$urlRouterProvider.otherwise('view1');
 	$stateProvider
-        .state('login', {
-            url: '/login',
-            params: {content:undefined},
-            templateUrl: '/views/login.html'
+        .state('view1', {
+            url: '/view1',
+            templateUrl: '/views/view1.html'
         })
         .state('view2', {
             url: '/view2',
-            params: {content:undefined},
             templateUrl: '/views/view2.html'
         })
 }])
