@@ -8,7 +8,7 @@ angular.module('MyApp.Controllers')
     		$scope.employees = EmployeeService.All();
     	}
 
-    	$scope.get = function(id){
+    	$scope.get = function(data){
     		$scope.employee = EmployeeService.Get(data);
     	}
 
@@ -18,14 +18,16 @@ angular.module('MyApp.Controllers')
 		        lastName: data.lastName
 	    	};
     		EmployeeService.Add(param);
+            $scope.employee = {};
     	}
 
     	$scope.delete = function(id){
-    		EmployeeService.Delete(data);
+    		EmployeeService.Delete(id);
     	}
 
-    	$scope.update = function(id,data){
-    		EmployeeService.Delete(id, data);
+    	$scope.update = function(data){
+    		EmployeeService.Update(data);
+            $scope.employee = {};
     	}
 
 }]);

@@ -1,15 +1,15 @@
 {
-  "name": "huawei-fleet-management-website",
+  "directory" : "app",
+  "name": "angular-firebase-skeleton",
   "authors": [
     "Dennis Cheong"
   ],
-  "description": "Huawei Fleet Management Website with AngularJS with Firebase and Hapi",
+  "description": "Skeleton website with AngularJS with Firebase",
   "main": "index.html",
   "moduleType": [],
   "keywords": [
     "Angular",
     "Firebase",
-    "Hapi",
     "Bootstrap"
   ],
   "license": "MIT",

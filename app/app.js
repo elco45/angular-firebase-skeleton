@@ -12,11 +12,11 @@ angular.module('MyApp.Controllers', []);
 angular.module('MyApp.Services', []);
 
 app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-	$urlRouterProvider.otherwise('view1');
+	$urlRouterProvider.otherwise('home');
 	$stateProvider
-        .state('view1', {
-            url: '/view1',
-            templateUrl: '/views/view1.html'
+        .state('home', {
+            url: '/home',
+            templateUrl: '/views/home.html'
         })
         .state('view2', {
             url: '/view2',

@@ -1,0 +1,1 @@
+Go to app/app.js and modify the config with the configurations that Firebase gives you.

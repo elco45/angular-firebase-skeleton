@@ -8,7 +8,7 @@ angular.module('MyApp.Services').factory('EmployeeService', ['$firebaseArray', '
 	            return data;
 	        },
 	        Get: function(payload) {
-	        	//payload = id
+	        	//payload = data to add
 	            var data = $firebaseObject(ref.child(payload));
 	            return data;
 	        },
@@ -21,15 +21,13 @@ angular.module('MyApp.Services').factory('EmployeeService', ['$firebaseArray', '
 	        },
 	        Delete: function(payload) {
 	        	//payload = id
-	        	ref.remove(payload)
+	        	ref.child(payload).remove();
 	        },
-	        Update: function(payload1, payload2) {
-	        	//payload1 = id
-	        	//payload2 = data to update
-	        	var data = $firebaseObject(ref.child(payload1.key));
-	        	data.update({
-	        		firstName: payload2.firstName,
-	            	lastName: payload2.lastName
+	        Update: function(payload) {
+	        	//payload = data to update
+	        	ref.child(payload.$id).update({
+	        		firstName: payload.firstName,
+	            	lastName: payload.lastName
 	        	})
 	        }
 		};
