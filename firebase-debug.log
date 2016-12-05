@@ -166,3 +166,31 @@
 [info] Public Directory: app
 [info] 
 [info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\elco45\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.2.0
+[debug] Platform:     win32
+[debug] Node Version: v6.3.1
+[debug] Time:         Sun Dec 04 2016 19:11:43 GMT-0600 (Central America Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\elco45\Desktop\angular-firebase-skeleton
+[info] Public Directory: app
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\elco45\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.2.0
+[debug] Platform:     win32
+[debug] Node Version: v6.3.1
+[debug] Time:         Sun Dec 04 2016 19:12:12 GMT-0600 (Central America Standard Time)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\elco45\Desktop\angular-firebase-skeleton
+[info] Public Directory: app
+[info] 
+[info] Server listening at: http://localhost:5000
